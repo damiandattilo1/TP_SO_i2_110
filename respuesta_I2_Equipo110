@@ -1,0 +1,55 @@
+Nieva Julian
+Dattilo Damian
+Kripper Mateo
+
+a- Se puede actualizar mi repositorio utilizando el fetch and merge, luego se pone el comando git pull para actualizar nuestro repositorio local
+b- Si podria, pero se generarian problemas de fusion con algunos archivos
+c- Si, se puede pero puede surgir un conflicto en un archivo si sobreescriben datos sobre una misma linea 
+ d- No, los datos no se pierden
+
+e- Comandos:
+
+Mateo Kripper
+1) git init
+2) git clone "repositoriodebeta"
+3) echo '' > fork.txt
+
+Julian Nieva
+4)git clone "repositoriodegamma"
+5)echo "Julian Nieva" >> fork.txt && hostname -I >> fork.txt && date +%T >> fork.txt
+6)git add .
+7)git commit -m "Commit"
+8)git push
+
+Damian Dattilo
+9)git clone "repositoriodealfa"
+10)echo "Damian Dattilo" >> fork.txt && hostname -I >> fork.txt && date +%T >> fork.txt
+11) repite paso 6 a 8
+
+Mateo Kripper
+14) echo '' > NuevoDato.txt
+15) repite paso 6 a 8
+
+Julian Nieva y Damian Dattilo
+16)git pull "repositoriodebeta"
+
+Mateo Kripper
+17)echo -e "Nieva Julian\nDattilo Damian\nKripper Mateo" > respuesta_I2_Equipo110
+18) repite paso 6 a 8
+Julian Nieva
+19)git pull
+20) echo -e "respuesta de a- y b-" >> respuesta_I2_Equipo110
+21)repite paso 6 a 8
+22)git request-pull
+
+Mateo Kripper
+23)git pull "repositoriodebeta"
+24)echo -e "respuesta de c- y d-" >> respuesta_I2_Equipo110
+25)repite paso 6 a 8
+
+Damian Dattilo
+26)git pull "repositoriodebeta"
+27)vim respuesta_I2
+28)echo -e "respuesta de e-" >> respuesta_I2_Equipo110
+29)repite paso 6 a 8
+30) git request-pull
